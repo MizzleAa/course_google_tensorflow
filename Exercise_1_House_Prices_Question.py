@@ -10,8 +10,8 @@ Hint: Your network might work better if you scale the house price down. You don'
 
 '''
 학습 오차율 : ±0.1
-학습을 오래 돌리던지
-범위에 7이상 x값을 포함시키자
+학습을 오래 돌리던지(epochs > 500)
+범위에 7이상 x값을 포함시키자(range > 10)
 '''
 import tensorflow as tf
 import numpy as np 
